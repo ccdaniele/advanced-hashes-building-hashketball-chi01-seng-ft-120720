@@ -4,7 +4,7 @@ def game_hash (team_name, team_color, name,shoe, points, rebounds, assists, bloc
   {:home => 
     {
       :team_name => "Brooklyn Nets",
-      :colors => "Black", "White",
+      :colors => "Black White",
       :players =>
       [
         {
@@ -25,7 +25,7 @@ def game_hash (team_name, team_color, name,shoe, points, rebounds, assists, bloc
    :away => 
     {
       :team_name => "Charlotte Hornets",
-      :colors => "Turquoise", "Purple",
+      :colors => "Turquoise Purple",
       :players =>
       [
         {
