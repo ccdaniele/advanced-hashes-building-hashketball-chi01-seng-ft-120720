@@ -3,20 +3,20 @@ def game_hash (team_name, team_color, name,shoe, points, rebounds, assists, bloc
   
   {:home => 
     {
-      :team_name => "Brooklyn Nets",
-      :colors => "Black White",
+      :team_name => "team name",
+      :colors => "team color",
       :players =>
       [
         {
-          :player_name => "Alan Anderson", 
-          :number => 0, 
-          :shoe => 16,
-          :points => 22,
-          :rebounds => 12 ,
-          :assists => 12,
-          :steals => 3,
-          :blocks => 1,
-          :slam_dunks => 1
+          :player_name => "name", 
+          :number => "number", 
+          :shoe => "shoe",
+          :points => "points",
+          :rebounds => "rebounds",
+          :assists => "assists",
+          :steals => "steals",
+          :blocks => "blocks",
+          :slam_dunks => "slam"
         }
       ]
       
@@ -24,20 +24,20 @@ def game_hash (team_name, team_color, name,shoe, points, rebounds, assists, bloc
     
    :away => 
     {
-      :team_name => "Charlotte Hornets",
-      :colors => "Turquoise Purple",
+      :team_name => "team name",
+      :colors => "team color",
       :players =>
       [
         {
-          :player_name => "Jeff Adrien", 
-          :number => 4, 
-          :shoe => 18,
-          :points => 10,
-          :rebounds => 1,
-          :assists => 1,
-          :steals => 2,
-          :blocks => 7,
-          :slam_dunks => 2
+          :player_name => "name", 
+          :number => "number", 
+          :shoe => "shoe",
+          :points => "points",
+          :rebounds => "rebounds",
+          :assists => "assists",
+          :steals => "steals",
+          :blocks => "blocks",
+          :slam_dunks => "slam"
         
         }
       ]
@@ -46,5 +46,3 @@ def game_hash (team_name, team_color, name,shoe, points, rebounds, assists, bloc
   }
 
 end
-
-
