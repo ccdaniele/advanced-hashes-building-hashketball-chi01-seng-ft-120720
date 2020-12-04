@@ -31,13 +31,13 @@ def game_hash
       [
         {
           :player_name => "name", 
-          :number => "", 
-          :shoe => "",
-          :points => "",
-          :rebounds => "",
-          :assists => "",
-          :steals => "",
-          :blocks => "",
+          :number => "number", 
+          :shoe => "shoe",
+          :points => "points",
+          :rebounds => "rebounds",
+          :assists => "assists",
+          :steals => "steals",
+          :blocks => "blocks",
           :slam_dunks => ""
         
         }
