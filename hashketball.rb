@@ -37,7 +37,7 @@ def game_hash
           :rebounds => rebounds
           :assists => assists,
           :steals => steals,
-          :blocks => blocks
+          :blocks => blocks,
           :slam_dunks => slam
         
         }
