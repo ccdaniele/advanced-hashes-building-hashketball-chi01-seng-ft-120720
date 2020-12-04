@@ -1,5 +1,5 @@
 require'pry'
-def game_hash 
+def game_hash (team_name, team_color, name,shoe, points, rebounds, assists, blocks, slam)
   
   {:home => 
     {
@@ -46,3 +46,5 @@ def game_hash
   }
 
 end
+
+
