@@ -38,7 +38,7 @@ def game_hash
           :assists => "assists",
           :steals => "steals",
           :blocks => "blocks",
-          :slam_dunks => ""
+          :slam_dunks => "slam"
         
         }
       ]
